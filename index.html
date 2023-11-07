@@ -6,8 +6,34 @@
     <title>musica play</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Musica PLAY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">sertanejo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">funk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">rock</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">gospel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
      <header class="cabeçalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
@@ -30,10 +56,11 @@
         <h1 class="container__titulo"><b class="container__titulo--negrito">musica play</b></h1>
             </div>
             <ul class="opcoes">
-            <input class="checkbox"  id="opcoes-menu"  class="opcoes__botao"
-            <label for="opcoes-menu"
+            <input class="checkbox"  id="opcoes-menu"  class="opcoes__botao">
+            <label for="opcoes-menu">
                  <li class="opcoes__item"> categorias</li>
-     
+            </label>
+              </ul>
                   
             <div class="container">
         <a href="#"><img src="img/Favoritos.svg" alt="" class="container__imagem"></a>  
